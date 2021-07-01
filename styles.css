@@ -1,0 +1,111 @@
+body {
+    background: #070210;
+    color: white;
+    font-family: 'Inter var', -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 75%;
+    overflow: auto;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border-bottom: 1px rgba(255, 255, 255, 0.1) solid;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    position: relative;
+    height: 40px;
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 5px;
+    padding: 5px;
+    font-size: 65%;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+article.introduction {
+    position: relative;
+    text-align: center;
+    top: 35px;
+    font-size: x-large;
+}
+
+.diagonal-box {
+    position: relative;
+    margin: 0 auto;
+    transform: skewY(-15deg);
+    top: 140px;
+    height: 280px;
+    background-color: red;
+    background-image: url(images/kko.svg);
+    background-size: 140px 140px;
+}
+
+.content {
+    position: relative;
+    margin: 0 auto;
+    top: 130px;
+    font-size: large;
+    text-align: center;
+}
+
+span {
+    text-shadow: 2px 2px 3px red;
+}
+
+div.incentives {
+    position: relative;
+    top: 280px;
+    font-size: x-large;
+    text-align: center;
+}
+
+div.incentives p {
+    font-size: x-large;
+}
+
+div.incentives-info {
+    position: relative;
+    display: flex;
+    top: 280px;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+div.incentives-info h3 {
+    font-size: 180%;
+    padding: 10px;
+    transition: text-shadow 2s ease;
+    text-shadow: none;
+    padding: 30px;
+    width: 220px;
+    border: solid;
+    border-radius: 5px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to top right, #070210 50%, red) ;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+div.incentives-info h3:hover {
+    text-shadow: 3px 3px 5px red;
+}
