@@ -7,6 +7,10 @@ body {
     font-size: 75%;
 }
 
+span {
+    text-shadow: 2px 2px 3px red;
+}
+
 h1 {
     margin: 0;
     padding: 0;
@@ -63,14 +67,9 @@ article.introduction {
     text-align: center;
 }
 
-span {
-    text-shadow: 2px 2px 3px red;
-}
-
 div.incentives {
     margin: 3%;
     margin-top: 12%;
-    
     font-size: x-large;
     text-align: center;
 }
@@ -83,9 +82,7 @@ div.incentives-info {
     display: flex;
     top: 280px;
     height: 200px;
-    text-align: center;
     justify-content: center;
-    align-items: center;
     margin: 1%;
 }
 
@@ -101,9 +98,29 @@ div.incentives-info h3 {
     border-image-source: linear-gradient(to top right, #070210 50%, red) ;
     margin: 10px;
     text-align: center;
-    justify-content: center;
 }
 
 div.incentives-info h3:hover {
     text-shadow: 3px 3px 5px red;
+}
+
+div.markets {
+    text-align: center;
+    font-size: 180%;
+    margin: 3%;
+    padding: 2%;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+div.markets img {
+    max-width: 10%;
+    max-height: 10%;
+    margin: auto;
+}
+
+.markets .container {
+    display: flex;
+    align-items: center;
 }
