@@ -5,7 +5,6 @@ body {
     Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 75%;
-    overflow: auto;
 }
 
 h1 {
@@ -38,17 +37,18 @@ h1 {
 }
 
 article.introduction {
-    position: relative;
     text-align: center;
-    top: 35px;
     font-size: x-large;
+    height: auto;
 }
 
+
 .diagonal-box {
-    position: relative;
+    min-width: 100%;
     margin: 0 auto;
     transform: skewY(-15deg);
-    top: 140px;
+    margin-top: 8%;
+    margin-bottom: 8%;
     height: 280px;
     background-color: red;
     background-image: url(images/kko.svg);
@@ -68,8 +68,9 @@ span {
 }
 
 div.incentives {
-    position: relative;
-    top: 280px;
+    margin: 3%;
+    margin-top: 12%;
+    
     font-size: x-large;
     text-align: center;
 }
@@ -79,15 +80,13 @@ div.incentives p {
 }
 
 div.incentives-info {
-    position: relative;
     display: flex;
     top: 280px;
     height: 200px;
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: 10px;
-    padding: 10px;
+    margin: 1%;
 }
 
 div.incentives-info h3 {
@@ -98,7 +97,6 @@ div.incentives-info h3 {
     padding: 30px;
     width: 220px;
     border: solid;
-    border-radius: 5px;
     border-image-slice: 1;
     border-image-source: linear-gradient(to top right, #070210 50%, red) ;
     margin: 10px;
