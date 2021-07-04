@@ -26,7 +26,7 @@ h1 {
     padding: 10px;
 }
 
-.menu a {
+header a {
     text-decoration: none;
     font-weight: normal;
     color: rgba(255, 255, 255, 0.6);
@@ -35,7 +35,7 @@ h1 {
     font-size: 65%;
 }
 
-.menu a:hover {
+header a:hover {
     text-decoration: underline;
     color: rgba(255, 255, 255, 0.9);
 }
@@ -67,18 +67,18 @@ article.introduction {
     text-align: center;
 }
 
-div.incentives {
+article.incentives {
     margin: 3%;
     margin-top: 12%;
     font-size: x-large;
     text-align: center;
 }
 
-div.incentives p {
+article.incentives p {
     font-size: x-large;
 }
 
-div.incentives-info {
+section.incentives-info {
     display: flex;
     top: 280px;
     height: 200px;
@@ -86,7 +86,7 @@ div.incentives-info {
     margin: 1%;
 }
 
-div.incentives-info h3 {
+section.incentives-info h3 {
     font-size: 180%;
     padding: 10px;
     transition: text-shadow 2s ease;
@@ -100,11 +100,11 @@ div.incentives-info h3 {
     text-align: center;
 }
 
-div.incentives-info h3:hover {
+section.incentives-info h3:hover {
     text-shadow: 3px 3px 5px red;
 }
 
-div.markets {
+section.markets {
     text-align: center;
     font-size: 180%;
     margin: 3%;
@@ -114,7 +114,7 @@ div.markets {
     align-items: center;
 }
 
-div.markets img {
+section.markets img {
     max-width: 10%;
     max-height: 10%;
     margin: auto;
