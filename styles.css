@@ -210,6 +210,11 @@ span.sushiswap {
     max-height: 80%;
     max-width: 80%;
     border-radius: 5%;
+
+    @media only screen and (hover: none) and (pointer: coarse) {
+        padding-top: 70px;
+        }
+        
 }
 
 #markets-1 p {
