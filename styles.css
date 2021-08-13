@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: #070210;
     color: white;
@@ -5,6 +9,11 @@ body {
     Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 75%;
+    min-height: 100%;
+}
+
+p {
+    margin: 3px;
 }
 
 span {
@@ -17,13 +26,24 @@ h1 {
     display: flex;
     border-bottom: 1px rgba(255, 255, 255, 0.1) solid;
     align-items: center;
+    text-align: center;
+    justify-content: space-between;
 }
 
 .logo {
-    display: flex;
+    display: inline-flex;
     position: relative;
-    height: 40px;
+    height: 48px;
     padding: 10px;
+}
+
+.kko-coin {
+    transition: transform .7s ease-in-out;
+    margin-left: 50px;
+}
+
+.kko-coin:hover {
+    transform: rotateX(360deg);
 }
 
 header a {
@@ -44,6 +64,27 @@ article.introduction {
     text-align: center;
     font-size: x-large;
     height: auto;
+}
+
+article button {
+    background-color: red;
+    border-radius: 5px;
+    font-size: 30px;
+    outline-style: none;
+    border-style: none;
+    border: red solid 2px;
+}
+
+article button:hover {
+    opacity: 80%;
+}
+
+article button a {
+    text-decoration: none;
+}
+
+article button a:visited {
+    color: white;
 }
 
 
@@ -76,51 +117,57 @@ article.incentives {
 
 article.incentives p {
     font-size: x-large;
+    width: 55%;
+    margin: 0 auto;
 }
 
-section.incentives-info {
-    display: flex;
-    top: 280px;
-    height: 200px;
-    justify-content: center;
-    margin: 1%;
-}
-
-section.incentives-info h3 {
-    font-size: 180%;
-    padding: 10px;
-    transition: text-shadow 2s ease;
-    text-shadow: none;
-    padding: 30px;
-    width: 220px;
-    border: solid;
-    border-image-slice: 1;
-    border-image-source: linear-gradient(to top right, #070210 50%, red) ;
-    margin: 10px;
-    text-align: center;
-}
-
-section.incentives-info h3:hover {
+article.incentives span {
     text-shadow: 3px 3px 5px red;
 }
 
-section.markets {
-    text-align: center;
-    font-size: 180%;
-    margin: 3%;
-    padding: 2%;
-    width: auto;
-    justify-content: center;
-    align-items: center;
-}
-
-section.markets img {
-    max-width: 10%;
-    max-height: 10%;
-    margin: auto;
-}
-
-.markets .container {
+.lp-rewards, .buy-kko {
+    height: auto;
+    font-size: large;
     display: flex;
-    align-items: center;
+    margin: 100px 75px;
+}
+
+.lp-rewards div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+section.lp-rewards div p {
+    width: 75%;
+    margin: 0 auto;
+}
+
+section.lp-rewards div img {
+    max-height: 120px;
+    max-width: 120px;
+    margin-top: 15px;
+}
+
+.buy-kko div {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.buy-kko img {
+    max-height: 12%;
+    max-width: 12%;
+    margin-top: 15px;
+    transition: transform .7s ease-in-out;
+}
+
+.buy-kko img:hover {
+    transform: rotateX(360deg);
+}
+
+.buy-kko p {
+    width: 65%;
+    margin: 0 auto;
 }
