@@ -211,10 +211,10 @@ span.sushiswap {
 
 .absolute-cat {
     position: absolute;
-    max-height: 30%;
-    max-width: 30%;
-    right: 85%;
-    top: -19%;
+    max-height: 25%;
+    max-width: 25%;
+    right: 86%;
+    top: -16%;
     z-index: -1;
     transform: rotate(-30deg);
 }
@@ -258,7 +258,7 @@ span.sushiswap {
     position: absolute;
     max-height: 25%;
     max-width: 25%;
-    top: -15%;
+    top: -18%;
     left: 82%;
     z-index: -1;
     transform: rotate(30deg);
