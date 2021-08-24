@@ -181,17 +181,21 @@ span.sushiswap {
     text-decoration: none;
 }
 
-#markets-1 {
+#markets-1, #markets-2 {
     display: flex;
     height: auto;
     margin: 200px 30px;
     font-size: x-large;
 }
 
-#markets-1 div {
+#markets-1 div, #markets-2 div {
     margin: 0  auto;
     text-align: center;
     max-width: 50%;
+}
+
+#markets-1 h3, #markets-2 h3 {
+    padding-top: 20px;
 }
 
 .logo-div {
@@ -206,17 +210,32 @@ span.sushiswap {
     max-width: 25%;
 }
 
-.f1-hungary {
+.f1-hungary, .casino-games {
     max-height: 80%;
     max-width: 80%;
+    min-height: 75%;
+    min-width: 75%;
     border-radius: 5%;
 
     @media only screen and (hover: none) and (pointer: coarse) {
         padding-top: 70px;
         }
-        
 }
 
 #markets-1 p {
     font-size: 90%;
+}
+
+#markets-2 {
+    margin-top: 250px;
+}
+
+.evolution {
+    max-height: 40%;
+    max-width: 40%;
+}
+
+.habanero {
+    max-height: 40%;
+    max-width: 40%;
 }
