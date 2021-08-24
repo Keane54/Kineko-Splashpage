@@ -213,8 +213,8 @@ span.sushiswap {
     position: absolute;
     max-height: 30%;
     max-width: 30%;
-    right: 86%;
-    top: -10%;
+    right: 85%;
+    top: -19%;
     z-index: -1;
     transform: rotate(-30deg);
 }
@@ -225,24 +225,13 @@ span.sushiswap {
     max-width: 25%;
 }
 
-.f1-hungary, .casino-games {
-    max-height: 80%;
+.f1-hungary, .casino-games, .fiat-gateway {
     max-width: 80%;
-    min-height: 80%;
-    min-width: 80%;
     border-radius: 5%;
 
     @media only screen and (hover: none) and (pointer: coarse) {
         padding-top: 70px;
         }
-}
-
-.fiat-gateway {
-    max-height: 90%;
-    max-width: 90%;
-    min-height: 80%;
-    min-width: 80%;
-    border-radius: 5%;
 }
 
 #markets-2, #deposit-methods {
@@ -269,7 +258,7 @@ span.sushiswap {
     position: absolute;
     max-height: 25%;
     max-width: 25%;
-    top: -14%;
+    top: -15%;
     left: 82%;
     z-index: -1;
     transform: rotate(30deg);
