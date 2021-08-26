@@ -3,7 +3,7 @@
 }
 
 body {
-    background: linear-gradient(180deg, #070210 60%, #2F1F42);
+    background: linear-gradient(180deg, #070210 50%, #2F1F42);
     color: white;
     font-family: 'Oswald', sans-serif;
     min-height: 100%;
@@ -181,20 +181,20 @@ span.sushiswap {
     text-decoration: none;
 }
 
-#markets-1, #markets-2, #deposit-methods {
+#markets-1, #markets-2, #deposit-methods, #uvp {
     display: flex;
     height: auto;
     margin: 200px 30px;
     font-size: x-large;
 }
 
-#markets-1 div, #markets-2 div, #deposit-methods div {
+#markets-1 div, #markets-2 div, #deposit-methods div, #uvp div {
     margin: 0  auto;
     text-align: center;
     max-width: 50%;
 }
 
-#markets-1 h3, #markets-2 h3{
+#markets-1 h3, #markets-2 h3, #uvp h3{
     padding-top: 20px;
 }
 
@@ -225,7 +225,7 @@ span.sushiswap {
     max-width: 25%;
 }
 
-.f1-hungary, .casino-games, .fiat-gateway {
+.f1-hungary, .casino-games, .fiat-gateway, .kko-uvp {
     max-width: 80%;
     border-radius: 5%;
 
@@ -234,7 +234,7 @@ span.sushiswap {
         }
 }
 
-#markets-2, #deposit-methods {
+#markets-2, #deposit-methods, #uvp {
     margin-top: 250px;
 }
 
@@ -270,4 +270,48 @@ span.sushiswap {
     justify-content: center;
     justify-items: center;
     position: relative;
+}
+
+#uvp p:first-of-type {
+    margin-bottom: 15px;
+}
+
+input[type=email] {
+    border: none;
+    border-radius: 12px;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+input[type=submit] {
+    width: 10%;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    background-color: #54327c;
+    transition: background-color 0.5s ease-in-out;
+}
+
+input[type=submit]:hover {
+    background-color: #6f459e;
+}
+
+input[type=submit]:active {
+    background-color: #54327c;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.subscribe h3 {
+    margin-bottom: 20px;
 }
