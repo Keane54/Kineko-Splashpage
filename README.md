@@ -1,3 +1,3 @@
-# SpookyBrenda.github.io
+# Kineko Splashpage
 
 Creating a splash page for https://kineko.com to summarise key features and aspects of the project.
